@@ -25,7 +25,7 @@ state-of-the art interactive tracking using point trajectories integrated into S
 
 # Overview
 
-This app is an integration of PIPs model, which is a NN-assisted interactive object tracking model. The PIPs model can track point trajectories. It is used to implement the tracking of polygons, points and rectangles on videos.
+This app is an integration of PIPs model, which is a NN-assisted interactive object tracking model. The PIPs model can track point trajectories. It is used to implement the tracking of polygons, points, lines and graphs on videos.
 
 # How to Run
 
