@@ -22,6 +22,9 @@ settings = root / "supervisely" / "serve" / "model_settings.yaml"
 load_dotenv(root / "local.env")
 load_dotenv(os.path.expanduser("~/supervisely.env"))
 
+os.environ["SMART_CACHE_TTL"] = str(5 * 60)
+os.environ["SMART_CACHE_SIZE"] = str(512)
+
 
 class PipsTracker(PointTracking):
     def load_on_device(
