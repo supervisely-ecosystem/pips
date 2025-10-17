@@ -14,7 +14,7 @@ state-of-the art interactive tracking using point trajectories integrated into S
   <a href="#Acknowledgment">Acknowledgment</a>
 </p>
 
-[![](https://img.shields.io/badge/supervisely-ecosystem-brightgreen)](../../../../supervisely-ecosystem/pips)
+[![](https://img.shields.io/badge/supervisely-ecosystem-brightgreen)](https://ecosystem.supervise.ly/apps/supervisely-ecosystem/pips)
 [![](https://img.shields.io/badge/slack-chat-green.svg?logo=slack)](https://supervise.ly/slack)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/supervisely-ecosystem/pips)
 [![views](https://app.supervise.ly/img/badges/views/supervisely-ecosystem/pips/supervisely/serve)](https://supervise.ly)
