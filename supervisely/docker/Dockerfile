@@ -20,3 +20,5 @@ RUN cd /weights && wget --no-check-certificate 'https://github.com/supervisely-e
 
 RUN apt update && apt install -y python-is-python3
 ENV WEIGHTS_DIR="/weights"
+
+LABEL python_sdk_version="6.73.486"
