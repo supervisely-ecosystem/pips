@@ -17,7 +17,8 @@ RUN apt update && apt install -y python-is-python3
 ENV WEIGHTS_DIR="/weights"
 
 
-RUN pip3 install --no-cache-dir torch==2.0.0+cu118 torchvision==0.15.1+cu118 --index-url https://download.pytorch.org/whl/cu118
+RUN pip3 install --no-cache-dir "typing-extensions<4.13" && \
+    pip3 install --no-cache-dir torch==2.0.0+cu118 torchvision==0.15.1+cu118 --extra-index-url https://download.pytorch.org/whl/cu118
 
 RUN pip3 install --no-cache-dir imageio==2.19.3 \
    opencv-python==4.6.0.66 \
